@@ -1,0 +1,39 @@
+/* VARIABLES */
+:root {
+}
+/* FONT FAMILY */
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf");
+}
+/* RESET STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/* BASIC STYLES */
+body {
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 16px;
+}
+/* TABLET (from 768px) */
+@media (min-width: 768px) {
+}
+/* DESKTOP (from 1024px) */
+@media (min-width: 1024px) {
+}
+/* LARGE DESKTOP (from 1440px) */
+@media (min-width: 1440px) {
+}

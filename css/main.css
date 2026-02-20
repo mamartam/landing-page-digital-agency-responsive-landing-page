@@ -1,5 +1,10 @@
 /* VARIABLES */
 :root {
+  --white: #ffffff;
+  --the-ligthest-green: #e8f9de;
+  --light-green: #b9f2a1;
+  --dark-green: #194447;
+  --black: #000000;
 }
 /* FONT FAMILY */
 @font-face {

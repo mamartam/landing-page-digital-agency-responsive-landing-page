@@ -3,7 +3,7 @@
   --white: #ffffff;
   --the-ligthest-green: #e8f9de;
   --light-green: #b9f2a1;
-  --dark-green: #194447;
+  --dark-green: #073340;
   --black: #000000;
 }
 /* FONT FAMILY */
@@ -33,6 +33,124 @@ body {
   font-weight: normal;
   font-size: 16px;
 }
+header {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 1018px;
+  position: relative;
+  z-index: 1;
+}
+header::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(282.4deg, #073340 1.31%, #659365 120.07%);
+  border-radius: 0 0 0 60px;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+.header-nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-name {
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.header-burdger-btn {
+  background-color: var(--light-green);
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+.header-nav-list {
+  display: none;
+}
+.header-contact-us-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #b9f2a1;
+  border-radius: 7px;
+  padding: 9px 8px;
+  color: var(--black);
+  font-weight: 600;
+  font-size: 0.5em;
+}
+/* intro section */
+.intro-section {
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.intro-header {
+  text-align: center;
+  margin-bottom: 1em;
+  color: var(--white);
+}
+.intro-header-accent {
+  color: var(--light-green);
+}
+.intro-description {
+  text-align: center;
+  margin-bottom: 3em;
+  font-size: 0.8em;
+  color: var(--white);
+}
+.intro-img {
+  display: block;
+  width: auto;
+  margin-bottom: 3em;
+}
+
+.intro-get-started-btn {
+  background-color: var(--light-green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  color: black;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.25em;
+}
+.intro-explore-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 187px;
+  height: 60px;
+  border: 2px solid var(--light-green);
+  border-radius: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1.25em;
+  color: var(--white);
+}
+
 /* TABLET (from 768px) */
 @media (min-width: 768px) {
 }
